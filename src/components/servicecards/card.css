@@ -1,0 +1,40 @@
+.card {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .custom-card {
+    /* max-width: 345px; */
+     max-width: 515px; 
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    /* padding: 16px; */
+    cursor: pointer;
+    height: 45px;
+    box-sizing: border-box;
+    background-color: white;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .card-title {
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: normal;
+  }
+  

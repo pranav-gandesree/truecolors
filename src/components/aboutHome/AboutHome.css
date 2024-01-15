@@ -1,0 +1,150 @@
+.aboutHome{
+    height: 100vh;
+    width: 100%;
+    
+}
+.aboutHome h2{
+        font-size: 2.5rem;
+        padding: 10px;
+        margin: 25px;
+        margin-bottom: -5px; 
+        /* background: linear-gradient(to right, #f32170, 
+        #ff6b08, #cf23cf, #eedd44);  */
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+}
+
+p{
+    color: white;
+    opacity: 0.8;
+}
+
+.flexbox img{
+    width: 653px;
+    height: 389px;
+    margin-right: 20px;
+    padding: 14px;
+    border-radius: 20px;
+ }
+
+ .flexbox{
+    display: flex;
+    flex-direction: row;
+
+    margin: 10px;
+ }
+
+ .flexbox p{
+    padding: 15px;
+    margin: 10px;
+    font-size: 1.1rem;
+ }
+.text-section{
+    margin-bottom: 15px;
+}
+
+ .buttons{
+    display: inline-flex;
+    margin-left: 20px;
+ }
+ .buttons button{
+    background-color: #789aab;
+    border: 1px solid black;
+    color: black;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    left: -100%;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0
+    16px 32px 0 rgba(0,0,0,0.19);
+
+ } 
+
+ .buttons button:hover {
+    background-color: #56789a;
+    color: #ffffff; 
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.buttons button#btn1:hover {
+    border-color: #456789; 
+}
+
+.buttons button#btn1:hover {
+    border-color: #456789; 
+}
+
+
+
+@media (max-width: 768px){
+    .flexbox {
+        flex-direction: column-reverse; 
+    }
+    .text-section + img {
+        height: auto;
+        width: 99%;
+        margin-left: 9px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .aboutHome h2{
+        margin-left: 22px;
+    }
+    .flexbox {
+        flex-direction: column-reverse; 
+    }
+    .flexbox img{
+        margin-left: 13px;
+    }
+}
+
+
+
+
+/* .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  } */
